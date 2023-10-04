@@ -1,0 +1,42 @@
+/* body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+#hero {
+  background-color: #ddd;
+  padding: 50px;
+  text-align: center;
+}
+
+.service, .portfolio-item, .testimonial {
+  margin: 20px;
+}
+
+#cta {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+} */
