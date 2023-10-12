@@ -11,9 +11,9 @@
 </head>
 
 <body>
-
-<header>
-    <div class="container d-flex justify-content-between p-4">
+<div id="particles-js"></div>
+<header class="fixed-top">
+    <div class="d-flex justify-content-between p-4">
         <div id="logo">Mediatack</div>
         <nav>
             <a href="#" class="mx-3">Services</a>
@@ -24,21 +24,25 @@
     </div>
 </header>
 
-<main class="container mt-5">
+
+<div class="container mt-5">
+
+<!-- HERO SECTION -->    
     <section id="hero" class="text-center mb-5">
         <h1>Welcome to Mediastack</h1>
         <p>Leading the digital frontier.</p>
     </section>
 
+
 <!-- About Section -->
-<section id="about" class="mb-5">
+<section id="about" class="container mb-5">
     <h2 class="text-center">About Us</h2>
     <p class="mt-4">
         Mediatack is a leading provider of digital solutions. Our team of experts specializes in web development, mobile apps, and data analysis. We're passionate about helping businesses succeed in the digital age.
     </p>
 </section>
 
-    <section id="services" class="mb-5">
+    <section id="services" class="container mb-5">
         <h2 class="text-center">Our Services</h2>
         <div class="d-flex justify-content-around mt-4">
             <div>
@@ -50,14 +54,14 @@
                 <p>Innovative mobile experiences.</p>
             </div>
             <div>
-                <h4>Data Analysis</h4>
+                <h4>Consulting</h4>
                 <p>Turn your data into insights.</p>
             </div>
         </div>
     </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="mb-5">
+<section id="portfolio" class="container mb-5">
     <h2 class="text-center">Portfolio</h2>
     <div class="row mt-4">
         <!-- Repeat this div for each portfolio item -->
@@ -67,11 +71,22 @@
             <p>Project Description</p>
         </div>
         <!-- Additional portfolio items here -->
+        <div class="col-md-4 mb-4">
+            <img class="img-fluid" src="portfolio-image1.jpg" alt="portfolio image">
+            <h4 class="mt-2">Project Name</h4>
+            <p>Project Description</p>
+        </div>
+        <!-- Additional portfolio items here -->
+        <div class="col-md-4 mb-4">
+            <img class="img-fluid" src="portfolio-image1.jpg" alt="portfolio image">
+            <h4 class="mt-2">Project Name</h4>
+            <p>Project Description</p>
+        </div>
     </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="mb-5">
+<section id="contact" class="container mb-5">
     <h2 class="text-center">Contact Us</h2>
     <div class="mt-4">
         <form>
@@ -93,13 +108,14 @@
 </section>
 
 
-</main>
+</div>
 
 <footer class="p-4 mt-5 bg-light text-center">
     <p>&copy; 2023 Mediastack. All rights reserved.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="app.js"></script>
 </body>
 
